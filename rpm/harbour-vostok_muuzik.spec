@@ -6,6 +6,8 @@
 Name:       harbour-vostok_muuzik
 
 # >> macros
+%define _binary_payload w9.gzdio
+%define _source_payload w9.gzdio
 # << macros
 
 %{!?qtc_qmake:%define qtc_qmake %qmake}

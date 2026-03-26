@@ -1,5 +1,5 @@
 * Thu Mar 26 2026 kan-ibal <kan-ibal@users.noreply.github.com> 2.5
-- build app for arch64 and against 4.5.0.13
+- build app for arch64 and against 4.6.0.13
 
 * Fri Mar 25 2022 jerome <jerome.levreau@vostoksystem.com> 2.5
 - build app to comply with sailfish 4.4.0.58 (sandboxing disabled)
