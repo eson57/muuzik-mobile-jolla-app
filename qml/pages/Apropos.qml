@@ -80,6 +80,13 @@ Page {
                 color: Theme.highlightColor
                 textFormat: Text.StyledText
             }
+            Label {
+                width:parent.width
+                wrapMode: Text.WordWrap
+                text: vi18n.get("apropos.copy.text2").arg("2026")
+                color: Theme.highlightColor
+                textFormat: Text.StyledText
+            }
 
             SectionHeader {
                 text: vi18n.get("apropos.remerciement")
@@ -101,13 +108,13 @@ Page {
                 width: parent.width
                 height: Theme.itemSizeExtraLarge
 
-                onClicked: Qt.openUrlExternally("http://www.vostoksystem.com/mobile-applications/muuzik-app")
+                onClicked: Qt.openUrlExternally("https://openrepos.net/content/kan/Muuzik!")
 
                 Label {
                     width:parent.width
                     horizontalAlignment: Text.AlignHCenter
                     verticalAlignment: Text.AlignVCenter
-                    text: "www.vostoksystem.com"
+                    text: "Muuzik!@openrepos"
                     font.underline: true
                     font.bold: true
                 }

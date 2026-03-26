@@ -74,7 +74,7 @@ public:
     Q_ENUM(VFType)
 
     static const QString FILTERNONE; // "";
-    static const QString FILTERAUDIO; // "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus)$";
+    static const QString FILTERAUDIO; // "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus|alac)$";
     static const QString FILTERVIDEO; // "\\.(mkv[avi|mp4|m4v|mpg|mov|3gp)$";
     static const QString FILTERIMAGE; // "\\.(jpg|jpeg|png|gif)$";
     static const QString FILTERTEXT; // "\\.(txt|text)$";

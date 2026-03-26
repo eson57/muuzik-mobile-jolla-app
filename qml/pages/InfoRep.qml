@@ -14,7 +14,7 @@ Page {
 
     property bool active: status===PageStatus.Active
     property string uri: ""       // base uri for the "view", defautl to "root"
-    property string filter: "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus)$"
+    property string filter: "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus|alac)$"
     property int batch_id: -1
     property bool artset: false
     property date currentDate: new Date()

@@ -7,7 +7,7 @@ Page {
     id:page
     property bool active: status===PageStatus.Active
     property var url
-    property string filter: "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus)$"
+    property string filter: "\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus|alac)$"
 
     property real batch_id : 0      // batch_id for data on asynch call
     property bool aulecteur:true

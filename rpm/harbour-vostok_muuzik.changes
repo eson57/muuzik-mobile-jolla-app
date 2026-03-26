@@ -1,3 +1,6 @@
+* Thu Mar 26 2026 kan-ibal <kan-ibal@users.noreply.github.com> 2.5
+- build app for arch64 and against 4.5.0.13
+
 * Fri Mar 25 2022 jerome <jerome.levreau@vostoksystem.com> 2.5
 - build app to comply with sailfish 4.4.0.58 (sandboxing disabled)
 
@@ -18,7 +21,7 @@
 - padding correction on configuration
 - updated email and maint url to vostoksystem.com
 
-*Thu May 16 2019 jerome <jerome.levreau@vostoksystem.eu> 2.2.6
+* Thu May 16 2019 jerome <jerome.levreau@vostoksystem.eu> 2.2.6
 - Fix file order when recursively listen directory
 - Fix on Recent max file number cap
 - Fix graphics for light ambiances
@@ -26,7 +29,7 @@
 - control panel open/hidden keep previous state during session
 - updated palylist location according of new rules
 
-*Thu Apr 9  2019 jerome <jerome.levreau@vostoksystem.eu> 2.1.10
+* Tue Apr 9  2019 jerome <jerome.levreau@vostoksystem.eu> 2.1.10
 - Fix in random pick where selection was capped to the recent limit instead of the full album list
 - replaced random generator
 - Fix the hint in Search panel that showed up every times

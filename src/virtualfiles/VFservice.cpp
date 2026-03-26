@@ -25,7 +25,7 @@ static QRegularExpression REG_sname( "([^/]*)\\.[^\\.]+$");
 static quint64 batch_id = 0;
 
 const QString VFService::FILTERNONE = QString("");
-const QString VFService::FILTERAUDIO = QString("\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus)$");
+const QString VFService::FILTERAUDIO = QString("\\.(mp3|ogg|flac|m4a|m4b|wav|aif|aiff|opus|alac)$");
 const QString VFService::FILTERVIDEO = QString("\\.(mkv[avi|mp4|m4v|mpg|mov|3gp)$");
 const QString VFService::FILTERIMAGE = QString("\\.(jpg|jpeg|png|gif)$");
 const QString VFService::FILTERTEXT = QString("\\.(txt|text)$");

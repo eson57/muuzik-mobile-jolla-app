@@ -83,6 +83,14 @@ void SdcardLocator::checkSdcard() {
             location = liste.at(6);
             break;
         }
+
+        // fix for switch to defaultuser
+        //@since 1.2
+        if( liste.length()>=6 && liste.at(6).indexOf("/run/media/defaultuser/")==0) {
+            type = liste.at(1);
+            location = liste.at(6);
+            break;
+        }
     }
 
     pclose(fichier);
